@@ -239,7 +239,10 @@ class RestframeParam(SedModule):
                            'REST_FRAME-maiz-apellaniz_Johnson_U' : 'MAJ_U',
                            'REST_FRAME-maiz-apellaniz_Johnson_V' : 'MAJ_V',
                            'ESO-vimos_u' : 'vimos_U',
-                           'hst-ACS_update_sep07-wfc_f606w_t81' : 'CDFS_V'
+                           'hst-ACS_update_sep07-wfc_f606w_t81' : 'CDFS_V',
+                           'COSMOS-CFHT_filter_u' : 'COSMOS_U',
+                           'COSMOS-SUBARU_filter_V' : 'COSMOS_V',
+                           'megaprime-cfht_mega_u_cfh9301' : 'UDS_U'
                           }
             return conversion.get(name)
 
